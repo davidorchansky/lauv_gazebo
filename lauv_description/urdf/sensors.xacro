@@ -48,7 +48,7 @@
   </xacro:default_camera> -->
 
   <!-- Mount the chemical concentration sensor -->
-  <xacro:chemical_concentration_sensor_macro
+  <!-- <xacro:chemical_concentration_sensor_macro
       namespace="${namespace}"
       suffix=""
       reference_frame="world"
@@ -66,6 +66,6 @@
       noise_amplitude="1"
       radius="50.0">
     <origin xyz="0 0 0" rpy="0 0 0"/>
-  </xacro:chemical_concentration_sensor_macro>
+  </xacro:chemical_concentration_sensor_macro> -->
 
 </robot>

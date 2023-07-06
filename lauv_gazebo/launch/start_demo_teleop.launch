@@ -7,7 +7,7 @@
 
   <arg name="joy_id" default="0"/>
 
-  <include file="$(find-pkg-share lauv_description)/launch/upload.py">
+  <include file="$(find-pkg-share lauv_description)/launch/upload.launch.py">
     <arg name="x" value="$(var x)"/>
     <arg name="y" value="$(var y)"/>
     <arg name="z" value="$(var z)"/>
